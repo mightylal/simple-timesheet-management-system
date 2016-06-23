@@ -1,0 +1,217 @@
+body {
+    background-color: #EEE;
+}
+
+.top-buffer {
+    margin-top: 20px;
+}
+
+.col-border {
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.logo {
+    padding: 5px;
+    padding-bottom: 15px;
+}
+
+.div-buffer {
+    padding: 5px;
+}
+
+#logo-container {
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 20px;
+    background-color: #E0E0E0;
+}
+
+#menu-container {
+    width: 100%;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding: 5px;
+    background: linear-gradient(#D1D1D1, #E1E1E1);
+}
+
+.navbar {
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 0;
+    min-height: 0;
+}
+
+.navbar-default {
+    background-color: inherit;
+}
+
+.navbar-default .navbar-text {
+    color: #000;
+}
+
+.navbar-text {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.nav > li > a {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000099;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #5C5CBD;
+}
+
+.nav > li {
+    margin: 0;
+    padding: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.navbar-nav {
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-text {
+    margin: 0;
+}
+
+#calendar td {
+    width: 14.286%;
+    padding: 5px;
+}
+
+#calendar th {
+    text-align: center;
+}
+
+#calendar td {
+    height: 150px;
+    vertical-align: top;
+}
+
+#calendar {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 3px;
+}
+
+.day-cell {
+    border: 1px solid #CCC;
+    background-color: #FFF;
+}
+
+.alert-required-cell {
+    background-color: #f2dede;
+}
+
+.day-cell:hover {
+    border-color: #85A3FF;
+    cursor: pointer;
+}
+
+.alert-required-cell:hover {
+    border-color: #FF5C5C;
+}
+
+.enter-time {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.container-buffer {
+    margin-top: 30px;
+}
+
+.panel {
+    border-radius: 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.panel-default > .panel-heading {
+    background-color: #4D4D4D;
+    color: #FFF;
+}
+
+.date-buffer {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.row > .arrow {
+    visibility: hidden;
+}
+
+.row:hover > .arrow {
+    visibility: visible;
+}
+
+.arrow > h2 {
+    cursor: pointer;
+}
+
+.alert-small {
+    padding: 3px;
+    margin-bottom: 3px;
+}
+
+.form-date {
+    padding: 6px 3px;
+}
+
+#report {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#report td {
+    width: 25%;
+    padding: 5px;
+    text-align: center;
+    height: auto;
+    vertical-align: baseline;
+}
+
+#report th {
+    text-align: center;
+}
+
+#report tfoot {
+    font-weight: bold;
+}
+
+.day-entry-container {
+    padding: 2px;
+    margin: 2px;
+}
+
+.container-spacing {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hours-container .show {
+    display: block;
+}
+
+.hours-container .hide {
+    display: none;
+}
